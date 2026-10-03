@@ -1,3 +1,5 @@
+package Questao03;
+
 public class Produto {
 
     private int codigo;
@@ -41,13 +43,5 @@ public class Produto {
         System.out.println("Nome: " + nome);
         System.out.println("Preço: R$ " + preco);
         System.out.println("Estoque: " + estoque);
-    }
-
-    public static void main(String[] args) {
-        Produto p = new Produto(1, "Teclado", 150.0, 20);
-        p.exibirInfo();
-        p.setPreco(-10);
-        p.setPreco(120.0);
-        p.exibirInfo();
     }
 }
